@@ -1,21 +1,10 @@
-/**
- * @name Ashuramaru Theme
- * @description Discord Theme from Ashuramaru Collection.
- * @author Kurou#7608
- * @version 1.0.0
- * @authorId 385878744612732930
- * @website https://kinmokusei.dev/
- * @source https://github.com/Kurou-kun/ashuramaru-theme
- * @updateUrl https://kurou-kun.github.io/ashuramaru-theme/ashuramaru.theme.css
- */
-
 /* Imports */
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 @import url('https://discordstyles.github.io/SoftX/VerticalUserArea.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://kurou-kun.github.io/discord-addons/BetterProfiles.css');/*
 @import url('https://kurou-kun.github.io/discord-addons/BetterChat.css');
-@import url('https://kurou-kun.github.io/discord-addons/BetterSettings.css');
+@import url('https://kurou-kun.github.io/discord-addons/BetterSettings.css');*/
 
 :root {
     /* Colors */
@@ -356,6 +345,9 @@
     background-color: rgb(var(--color-background));
     transform: scale(1.05);
 }
+
+/* No Connection Screen */
+
 
 /* Left Column (Servers) */
 .container-1eFtFS .wrapper-1_HaEi.guilds-2JjMmN {
@@ -1004,10 +996,6 @@ backdrop-filter: blur(10px) !important;
 
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN.noChat-2UYgeE.video-3n15R6 .callContainer-HtHELf .listItems-6eZzQ1 .row-jreWvj .tile-3GyaDQ .inner-3je51t .border-2Vy6FN.speaking-7QZEkv {
     border: 3px solid;
-}
-
-.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN.noChat-2UYgeE.video-3n15R6 .callContainer-HtHELf .listItems-6eZzQ1 .row-jreWvj .tile-3GyaDQ .root-u9h3Ui {
-    background-color: rgb(var(--color-background));
 }
 
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN.noChat-2UYgeE.video-3n15R6 .callContainer-HtHELf .participantsButton-1WBdFP {
@@ -2098,6 +2086,78 @@ backdrop-filter: blur(10px) !important;
 .layerContainer-2v_Sit .layer-1Ixpg3 .imagePickerContainer-1VjOgi .optionBox-1UOevl .contentCircle-15IFyT {
     border-radius: var(--roundness);
     background-color: rgb(var(--color-accent), 0.5);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz {
+    background-color: rgb(var(--color-background2));
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz .container-1QtPKm[style]  {
+    background-color: rgb(var(--color-background)) !important;
+    border-radius: var(--roundness);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz .container-1QtPKm .slider-HJFN2i rect,
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz .container-1QtPKm.checked-16gMAN .slider-HJFN2i rect {
+    fill: transparent;
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz .container-1QtPKm .slider-HJFN2i svg path {
+    fill: rgb(200, 0, 0);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz .container-1QtPKm.checked-16gMAN svg path {
+    fill: rgb(200, 200, 200);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz .micTest-19EtdQ .button-ejjZWC {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-hidden));
+    border-radius: var(--roundness);
+    transition: transform .2s ease-in-out;
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz .micTest-19EtdQ .button-ejjZWC:hover {
+    transform: scale(1.05);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6 {
+    background-color: rgb(var(--color-background2));
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6::-webkit-scrollbar {
+    width: 6px;
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--color-accent), 0.5);
+    border-radius: 0;
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6::-webkit-scrollbar-track {
+    background-color: rgb(var(--color-background));
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6 .option-Uc12mm:hover {
+    background-color: rgb(var(--color-background), 0.5);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6 .option-Uc12mm[aria-selected="true"] {
+    background-color: rgb(var(--color-accent), 0.5);
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6 .option-Uc12mm[aria-selected="true"] .selectedIcon-122rMx {
+    background-color: rgb(var(--color-background));
+    border-radius: var(--roundness);
+    color: rgb(var(--color-background));
+}
+
+.layerContainer-2v_Sit .layer-2aCOJ3 .popout-15UxD6 .option-Uc12mm[aria-selected="true"] .selectedIcon-122rMx circle {
+    fill: rgb(var(--color-accent2));
 }
 
 /* CallTimeCounter */
