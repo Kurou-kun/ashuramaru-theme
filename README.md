@@ -3,6 +3,15 @@
 <h3 align="left">Patch Notes:</h3>
 <ul style="list-style-type: circle;">
     <li>
+        <p>10.03.2003</p>
+        <ul style="list-style-type: circle;">
+            <li>Fixed avatar speaking indication on sidebar</li>
+            <li>Fixed members shadow</li>
+            <li>Themed stage channels</li>
+            <li>Fixed members width aspect</li>
+        </ul>
+    </li>
+    <li>
         <p>05.03.2003</p>
         <ul style="list-style-type: circle;">
             <li>Fixed color on servers top badge</li>
