@@ -9,7 +9,6 @@
     <li>BetterSettings</li>
     <li>HiddenMembers</li>
 </ul>
-<br>
 <p>Bear in mind that those addons are now broken and they will be fixed in the future.</p>
 <br>
 <h3 align="left">Patch Notes:</h3>
