@@ -21,6 +21,16 @@
             <li>Themed chat input for locked channels</li>
         </ul>
     </li>
+    <li>
+        <p>10.03.2003</p>
+        <ul style="list-style-type: circle;">
+            <li>Fixed most popouts on sidebar</li>
+            <li>Themed "Whats New" container</li>
+            <li>Added sidebar width aspect</li>
+            <li>Fixed voice call buttons modification to work better with sidebar width</li>
+            <li>Fixed color on voice call and account buttons</li>
+        </ul>
+    </li>
 </ul>
 
 --------------------------------------------------------------------
