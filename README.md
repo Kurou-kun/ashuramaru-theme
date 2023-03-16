@@ -7,6 +7,16 @@
 <h3 align="left">Patch Notes:</h3>
 <ul style="list-style-type: circle;">
     <li>
+        <p>15.03.2003</p>
+        <ul style="list-style-type: circle;">
+            <li>Fixed most popouts on sidebar</li>
+            <li>Themed "Whats New" container</li>
+            <li>Added sidebar width aspect</li>
+            <li>Fixed voice call buttons modification to work better with sidebar width</li>
+            <li>Fixed color on voice call and account buttons</li>
+        </ul>
+    </li>
+    <li>
         <p>10.03.2003</p>
         <ul style="list-style-type: circle;">
             <li>Fixed avatar speaking indication on sidebar</li>
@@ -23,16 +33,6 @@
             <li>Fixed sidebar roundness</li>
             <li>Fixed color on popups</li>
             <li>Themed chat input for locked channels</li>
-        </ul>
-    </li>
-    <li>
-        <p>10.03.2003</p>
-        <ul style="list-style-type: circle;">
-            <li>Fixed most popouts on sidebar</li>
-            <li>Themed "Whats New" container</li>
-            <li>Added sidebar width aspect</li>
-            <li>Fixed voice call buttons modification to work better with sidebar width</li>
-            <li>Fixed color on voice call and account buttons</li>
         </ul>
     </li>
 </ul>
