@@ -1,5 +1,19 @@
 <h1 align="center">Ashuramaru Theme</h1>
 <br>
+<p>Newest touch on discord theme from ashuramaru collection. It should work with latest discord version.</p>
+<br>
+<p>Theme now is partially customizable with colors, background and other things.</p>
+<br>
+<p>It has previously released addons for discord:</p>
+<ul style="list-style-type: none;">
+    <li>BetterChat</li>
+    <li>BetterProfiles</li>
+    <li>BetterSettings</li>
+    <li>HiddenMembers</li>
+</ul>
+<br>
+<p>Bear in mind that those addons are now broken and they will be fixed in the future.</p>
+<br>
 <h3 align="left">Patch Notes:</h3>
 <ul style="list-style-type: circle;">
     <li>
