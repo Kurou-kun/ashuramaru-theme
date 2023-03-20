@@ -7,6 +7,13 @@
 <h3 align="left">Patch Notes:</h3>
 <ul style="list-style-type: circle;">
     <li>
+        <p>20.03.2003</p>
+        <ul style="list-style-type: circle;">
+            <li>Added BetterChat addon to the theme</li>
+            <li>Fixed some minor bugs</li>
+        </ul>
+    </li>
+    <li>
         <p>15.03.2003</p>
         <ul style="list-style-type: circle;">
             <li>Fixed most popouts on sidebar</li>
