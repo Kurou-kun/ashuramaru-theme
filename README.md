@@ -58,27 +58,15 @@
         </ul>
     </li>
 </ul>
-
---------------------------------------------------------------------
-	Theme Authors
---------------------------------------------------------------------
-- Mostly
-	by Kurou
-	
-- Windows Titlebar
-	by DiscordStyles 
-	
-- VerticalUserArea
-	by DiscordStyles 
-
-- Radial Status
-    by discordstyles
-
-- SettingsIcons
-    by mwittrien
-
-- Better bades
-    by mr-miner1
-
-- Channels and members categories look
-    by (i don't remember)
+<br>
+<br>
+<h1 align="center">Theme Authors</h1>
+<br>
+<ul style="list-style-type: circle;">
+    <li>Pretty much everything by Kurou</li>
+    <li>Windows Taskbar by DiscordStyles</li>
+    <li>VerticalUserArea by DiscordStyles</li>
+    <li>Radial Status by DiscordStyles</li>
+    <li>SettingsIcons by mwittrien</li>
+    <li>Better Badges by mr-miner1</li>
+</ul>
