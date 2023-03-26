@@ -19,7 +19,7 @@
     --color-background: 35, 35, 35;                 /* 35, 35, 35 */
     --color-background2: 20, 20, 20;                /* 20, 20, 20 */
     --status-online: 250, 250, 250;                 /* 250, 250, 250 */
-    --status--idle: 200, 100, 0;                    /* 200, 100, 0 */
+    --status-idle: 200, 100, 0;                     /* 200, 100, 0 */
     --status-offline: 150, 150, 150;                /* 150, 150, 150 */
     --status-dnd: 250, 0, 0;                        /* 255, 0, 0 */
     --status-stream: 100, 100, 250;                 /* 100, 100, 250 */
@@ -32,7 +32,7 @@
     --roundness: 3px;                               /* 3px */
 
     /* Font */
-    --font-display: ;                               /* empty */
+    /*--font-primary: ;                             /* empty */
 
     /* Images */
     --image-home: url('https://kurou-kun.github.io/ashuramaru-theme/icon.png');                 /* https://kurou-kun.github.io/ashuramaru-theme/icon.png */
@@ -71,11 +71,11 @@
     background-size: var(--bg-size);
     background-clip: var(--bg-clip);
     filter: var(--bg-filter);
-    background-color: rgb(var(--color-background2)) !important;
+    background-color: rgb(var(--color-background)) !important;
 }
 
 .appMount-2yBXZl body {
-	background-color: var(--color-background2) !important;
+	background-color: var(--color-background) !important;
 }
 
 .app-2CXKsg,
@@ -117,7 +117,6 @@
 .chatContent-3KubbW {
 	background: 0 0 !important;
 	padding-top: -20px;
-	font-family: var(--font);
 }
 
 .children-3xh0VB:after,
@@ -279,6 +278,12 @@
     top: -4px;
 }
 
+/* Loading Icons */
+.wanderingCubes-2A046F .item-2VgEex {
+    background-color: rgb(var(--color-accent));
+    border-radius: 3px;
+}
+
 /* Scrollbars */
 .members-3WRCEx::-webkit-scrollbar,
 .popout-1KHNAq::-webkit-scrollbar,
@@ -297,7 +302,6 @@
     width: 13px;
 }
 
-.scroller-kQBbkU::-webkit-scrollbar-track,
 .scroller-3j5xK2::-webkit-scrollbar-track,
 .scroller-RfJjkV::-webkit-scrollbar-track,
 .peopleList-2VBrVI::-webkit-scrollbar-track {
@@ -323,6 +327,7 @@
     border-radius: 0px;
 }
 
+.scroller-kQBbkU::-webkit-scrollbar-track,
 .members-3WRCEx::-webkit-scrollbar-track,
 .popout-1KHNAq::-webkit-scrollbar-track,
 .scroller-1ox3I2::-webkit-scrollbar-track,
@@ -368,22 +373,6 @@
 /* No Connection Screen */
 .container-2RRFHK {
     background-color: rgb(var(--color-background2));
-}
-
-.container-2RRFHK .content-3AIQZv::before {
-    content: 'Theme is locked due to lost connection to the addons!';
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    align-self: center;
-    padding-top: 350px;
-    top: 0;
-    left: 0;
-    font-weight: 900;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(var(--color-accent));
 }
 
 /* Left Column (Servers) */
@@ -860,6 +849,10 @@
     background-color: rgb(var(--color-background2));
 }
 
+.base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .inner-llGtyq {
+    margin-right: calc(var(--sidebar-width) - 100% - 48%);
+}
+
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .inner-llGtyq .subtext-2HDqJ7 {
     color: rgb(var(--color-hidden));
 }
@@ -898,7 +891,7 @@
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .panel-2ZFCRb .gameWrapper-2TFy7F {
-    margin-right: -30px;
+    margin-right: 20px;
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .panel-2ZFCRb .panelButtonContainer-zIflxz .button-12Fmur {
@@ -928,8 +921,7 @@
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .flex-2S1XBF {
     margin-bottom: -78px;
-    width: calc(var(--sidebar-width) - 63%);
-    margin-right: -8px;
+    width: calc(var(--sidebar-width) - 66%);
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .button-12Fmur {
@@ -938,7 +930,7 @@
     padding-left: 25px;
     padding-right: 25px;
     width: calc(100% - 55%);
-    margin-right: calc(100% - 99%);
+    margin-right: calc(100% - 98%);
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .button-12Fmur:nth-child(1) svg path:nth-child(7) {
@@ -1368,6 +1360,31 @@
     transform: scale(1.05);
 }
 
+/* Middle Column (NSFW) */
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .scroller-3KyaqJ {
+    background-color: rgb(var(--color-background2), 0.7) !important;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .scroller-3KyaqJ .wrapper-2R36Wv .image-3HC6rC {
+    background-image: url('https://kurou-kun.github.io/ashuramaru-theme/warning.png') !important;
+    width: 400px;
+    height: 400px;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .scroller-3KyaqJ .wrapper-2R36Wv .title-FyH9jw {
+    font-size: 40px;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .scroller-3KyaqJ .wrapper-2R36Wv .button-ejjZWC {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-hidden));
+    border-radius: var(--roundness);
+    transition: transform .2s ease-in-out;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .scroller-3KyaqJ .wrapper-2R36Wv .button-ejjZWC:hover {
+    transform: scale(1.05);
+}
 
 /* Middle Column Bottom (Input) */
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .chatContent-3KubbW .form-3gdLxP {
@@ -1454,11 +1471,32 @@
     color: rgb(250, 250, 250) !important;
 }
 
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .chatContent-3KubbW .form-3gdLxP .cooldownWrapper-2k1jHK[style] {
+    padding-top: 3px;
+    color: rgb(var(--color-hidden)) !important;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .chatContent-3KubbW .form-3gdLxP .typingDots-1Y8dki {
+    margin-bottom: 178px;
+    margin-left: -15px;
+    color: rgb(var(--color-hidden));
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .chatContent-3KubbW .form-3gdLxP .typingDots-1Y8dki .dots-1k2MxY {
+    color: rgb(var(--color-hidden));
+}
+
 /* Right Column (Members) */
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW {
     background-color: rgb(var(--color-background2), 0.8) !important;
     backdrop-filter: blur(10px) !important;
     width: var(--members-width);
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW,
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW .membersWrap-3NUR2t,
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW .members-3WRCEx {
+    height: 100% !important;
 }
 
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW::before {
@@ -1638,6 +1676,13 @@
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
     transform: scale(1.05);
+}
+
+.base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .panels-3wFtMD .actions-zk2vB_ .disabledButtonWrapper-1m0hYZ {
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    right: 0;
 }
 
 /* Friends Tab | Middle Column Top (Header) */
@@ -1825,7 +1870,86 @@
     transform: scale(1.05);
 }
 
+/* Friends Tab | Middle Column (Voice Call) */
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN {
+    background: rgb(var(--color-background2), 0.7) !important;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .voiceCallWrapper-3UtDiC .participant-1l6khj * {
+    border-radius: var(--roundness);
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .voiceCallWrapper-3UtDiC .participant-1l6khj .callAvatarMask-fiNMWy foreignObject[mask="url(#svg-mask-avatar-voice-call-80)"] {
+    mask: url(#svg-mask-avatar-default) !important;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .voiceCallWrapper-3UtDiC .participant-1l6khj .border-2BJQjd.speaking-3RWJBr {
+    border: 2px solid rgb(var(--status-online)) !important;
+    box-shadow: none;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .voiceCallWrapper-3UtDiC .ringingOutgoing-1NjfRn::after {
+    border-color: rgb(var(--color-accent));
+    border-radius: var(--roundness);
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .voiceCallWrapper-3UtDiC .participant-1l6khj .status-1ZXjSF {
+    background-color: transparent;
+    color: rgb(var(--color-hidden));
+    height: 20px;
+    width: 20px;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .voiceCallWrapper-3UtDiC .participant-1l6khj .status-1ZXjSF path:nth-child(4) {
+    fill: rgb(250, 0, 0) !important;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .bottomControls-31YuPK .staticButton-1oD4l7 {
+    background-color: rgb(var(--color-background)) !important;
+    border-radius: var(--roundness);
+    position: absolute;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .bottomControls-31YuPK .controlButton-2PMNom {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-hidden));
+    border-radius: var(--roundness);
+    transition: transform .2s ease-in-out;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .bottomControls-31YuPK .controlButton-2PMNom:hover {
+    transform: scale(1.05);
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .bottomControls-31YuPK .red-3T8maV .controlIcon-10O-4h {
+    color: rgb(250, 0, 0) !important;
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .bottomControls-31YuPK .staticButton-1oD4l7 .controlIcon-10O-4h,
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .bottomControls-31YuPK .controlButton-2PMNom .controlIcon-10O-4h {
+    color: rgb(var(--color-hidden));
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .bottomControls-31YuPK .controlButton-2PMNom .contextMenuNub-NuTZ_U {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-hidden));
+    border-radius: var(--roundness);
+}
+
+.base-2jDfDU .content-1SgpWY .chat-2ZfjoI .wrapper-1gVUIN .callContainer-HtHELf .videoControls-353CsJ .topControls-23RE3h .flex-2S1XBF div[aria-haspopup="listbox"] {
+    background-color: rgb(var(--color-background));
+    border-radius: var(--roundness);
+    padding: 8px;
+    margin-top: 5px;
+}
+
 /* Friends Tab | Right Column */
+.base-2jDfDU .content-1SgpWY .scroller-hE2gWq {
+    border: none;
+}
+
 .base-2jDfDU .content-1SgpWY .nowPlayingColumn-1eCBCN {
     background-color: rgb(var(--color-background2), 0.8) !important;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
@@ -2923,11 +3047,17 @@
     transform: scale(1.05);
 }
 
-
-
-
-
-
+.layerContainer-2lfOPe .layer-fP3xEz::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(var(--color-background2));
+    opacity: 1 !important;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 
 /* CallTimeCounter */
 .base-2jDfDU .sidebar-1tnWFu .panels-3wFtMD .voiceTimer {
@@ -3011,4 +3141,71 @@
 
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] + rect {
     stroke: var(--rs-online-color);
+}
+
+/* Image Utilities */
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .operations-3V47CY {
+    padding-top: 10px;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .operations-3V47CY .anchor-1X4H4q  {
+    background-color: rgb(var(--color-background2));
+    color: rgb(var(--color-hidden)) !important;
+    border-radius: var(--roundness);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10px !important;
+    transition: transform .2s ease-in-out;
+    opacity: 1;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .operations-3V47CY .anchor-1X4H4q:nth-child(1) {
+    margin-left: 0px !important;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .operations-3V47CY .anchor-1X4H4q:hover,
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .operations-3V47CY .anchorUnderlineOnHover-wiZFZ_:hover {
+    background-color: rgb(var(--color-background2));
+    transform: scale(1.05);
+    text-transform: none;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .operations-3V47CY .downloadLink-3cavAH[style="margin: 0px 5px;"] {
+    display: none;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .detailsWrapper-TE1mu5 {
+    background-color: rgb(var(--color-background2));
+    border-top: 1px solid rgb(0, 0, 0);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .detailsWrapper-TE1mu5 .details-9dkFPc .label-mrlccN {
+    color: rgb(var(--color-hidden));
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .detailsWrapper-TE1mu5 .details-9dkFPc {
+    color: rgb(var(--color-normal));
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .sibling-6vI7Pu .switchIcon-QY6cR4 {
+    background-color: rgb(var(--color-background2));
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 3px;
+    opacity: 0.5;
+    transition: opacity .2s ease-in-out;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .sibling-6vI7Pu .switchIcon-QY6cR4:hover {
+    opacity: 1;
+}
+
+.layerContainer-2lfOPe .layer-fP3xEz .gallery-JViwKR .placeholderLoadingSpinner-2xCJ3h {
+    background-color: rgb(var(--color-background2));
+    border-radius: 3px;
 }

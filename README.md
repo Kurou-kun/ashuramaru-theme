@@ -7,6 +7,21 @@
 <h3 align="left">Patch Notes:</h3>
 <ul style="list-style-type: circle;">
     <li>
+        <p>25.03.2003</p>
+        <ul style="list-style-type: circle;">
+            <li>Fixed members height</li>
+            <li>Fixed user panel game info on friends tab</li>
+            <li>Fixed user panel connection info</li>
+            <li>Themed ImageUtilites popup</li>
+            <li>Themed NSFW warning screen</li>
+            <li>Themed wandering cubes loading effect</li>
+            <li>Themed not loaded image background splash</li>
+            <li>Removed border from friends tab activity</li>
+            <li>Added header to popups with backdrop</li>
+            <li>Partially themed friends tab voice call</li>
+        </ul>
+    </li>
+    <li>
         <p>20.03.2003</p>
         <ul style="list-style-type: circle;">
             <li>Added BetterChat addon to the theme</li>
