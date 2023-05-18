@@ -1,3 +1,7 @@
+:root {
+    --width-sidebar: 300px;
+}
+
 /* Left Column Middle (Channels) */
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu {
     background-color: rgb(var(--color-background-secondary), 0.8) !important;

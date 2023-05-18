@@ -1,3 +1,7 @@
+:root {
+    --width-members: 250px;
+}
+
 /* Right Column (Members) */
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW {
     background-color: rgb(var(--color-background-secondary), 0.8) !important;
