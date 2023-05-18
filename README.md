@@ -7,6 +7,15 @@
 <h3 align="left">Patch Notes:</h3>
 <ul style="list-style-type: circle;">
     <li>
+        <p>18.05.2003</p>
+        <ul style="list-style-type: circle;">
+            <li>Fixed sidebar panel buttons</li>
+            <li>Fixed some minor bugs</li>
+            <li>Re-defined structure of the theme</li>
+            <li>Fixed coloring issue</li>
+        </ul>
+    </li>
+    <li>
         <p>25.03.2003</p>
         <ul style="list-style-type: circle;">
             <li>Fixed members height</li>
