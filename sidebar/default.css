@@ -250,7 +250,8 @@
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .inner-llGtyq {
-    margin-right: calc(var(--width-sidebar) - 100% - 48%);
+    margin-right: calc(var(--width-sidebar) - 100% - 99%); /* WTF is this???? */
+    width: 100%;
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .inner-llGtyq .subtext-2HDqJ7 {
@@ -315,22 +316,32 @@
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .actionButtons-2vEOUh {
-    width: calc(var(--width-sidebar) - 46%);
-    max-width: calc(var(--width-sidebar) - 46%);
+    width: calc(var(--width-sidebar) - 20px);
+    max-width: calc(var(--width-sidebar) - 20px);
+    padding-top: 43px;
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .flex-2S1XBF {
-    margin-bottom: -78px;
-    width: calc(var(--width-sidebar) - 66%);
+    margin-bottom: -100px;
+    width: 100%;
+    margin-right: 5px;
 }
 
-.base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .button-12Fmur {
+.base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .button-12Fmur:nth-child(1) {
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 25px;
     padding-right: 25px;
-    width: calc(100% - 55%);
-    margin-right: calc(100% - 98%);
+    width: 100%;
+    margin-right: 3px;
+}
+
+.base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .button-12Fmur:nth-child(2) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
 }
 
 .base-2jDfDU .content-1SgpWY .sidebar-1tnWFu .container-1zzFcN .flex-2S1XBF .button-12Fmur:nth-child(1) svg path:nth-child(7) {
