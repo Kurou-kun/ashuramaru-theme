@@ -25,7 +25,7 @@
     --image-home: url("https://kurou-kun.github.io/ashuramaru-theme/icons/icon.png");
     --image-background-filter: blur(5px);
 
-    --font-primary: Verdana;
+    /*--font-primary: Verdana;*/
 
     --roundness: 2px;
     --roundness-avatars: 5px;
