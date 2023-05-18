@@ -9,17 +9,25 @@
  * @updateUrl https://kurou-kun.github.io/ashuramaru-theme/ashuramaru.theme.css
 */
 
+/* Optional Imports */
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+/*@import url('https://kurou-kun.github.io/discord-addons/HiddenMembers.css');*/
+
 /* Import Sidebar */
-@import url('https://kurou-kun.github.io/ashuramaru-theme\sidebar\default.css');
+@import url('https://kurou-kun.github.io/ashuramaru-theme/sidebar/default.css');
 
 /* Import Chat */
-@import url('https://kurou-kun.github.io/ashuramaru-theme\chat\default.css');
+@import url('https://kurou-kun.github.io/ashuramaru-theme/chat/default.css');
 
 /* Import Members */
-@import url('https://kurou-kun.github.io/ashuramaru-theme\members\default.css');
+@import url('https://kurou-kun.github.io/ashuramaru-theme/members/default.css');
+
+/* Import Source */
+@import url('https://kurou-kun.github.io/ashuramaru-theme/source');
 
 /* Config */
 :root {
+    /* Colors */
     --color-primary: 250, 250, 250;
     --color-secondary: 200, 200, 200;
     --color-accent: 200, 0, 0;
@@ -32,14 +40,18 @@
     --color-status-stream: 50, 50, 250;
     --color-status-offline: 100, 100, 100;
 
+    /* Images */
     --image-background: url("https://kurou-kun.github.io/ashuramaru-theme/background.png");
-    --image-home: url("https://kurou-kun.github.io/ashuramaru-theme/icon.png");
+    --image-home: url("https://kurou-kun.github.io/ashuramaru-theme/icons/icon.png");
     --image-background-filter: blur(5px);
 
-    --roundness: 2px;
-    --roundness-avatars: 5px;
+    /* Font */
+    /*--font-primary: Verdana;*/
 
+    /* Roundness */
+    --roundness: 2px;
+
+    /* Width */
     --width-sidebar: 300px;
-    --width-chat: 100%;
     --width-members: 250px;
 }
