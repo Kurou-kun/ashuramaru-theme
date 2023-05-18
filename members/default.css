@@ -2,7 +2,7 @@
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW {
     background-color: rgb(var(--color-background-secondary), 0.8) !important;
     backdrop-filter: blur(10px) !important;
-    width: var(--members-width);
+    width: var(--width-members);
 }
 
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW,
@@ -14,13 +14,13 @@
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW::before {
     content: '';
     height: 91%;
-    width: var(--members-width);
+    width: var(--width-members);
     position: absolute;
     box-shadow: 0px -5px 5px rgb(0, 0, 0, 0.5);
 }
 
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW .membersWrap-3NUR2t .members-3WRCEx {
-    width: var(--members-width)
+    width: var(--width-members)
 }
 
 .base-2jDfDU .content-1SgpWY .chat-2ZfjoI .content-1jQy2l .container-2o3qEW .membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar {
@@ -28,7 +28,7 @@
     box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
     margin-top: 5px;
     border-radius: 3px;
-    max-width: calc(var(--members-width) - 20px) !important;
+    max-width: calc(var(--width-members) - 20px) !important;
     border: none;
 }
 
